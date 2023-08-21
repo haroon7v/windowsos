@@ -34,7 +34,7 @@ $default_fields = $list_fields;
 
 // select columns for table display
 $sql = prepare_sql_tab($list_fields);
-$sql['SQL']  .= "FROM example WHERE (hardware_id = $systemid)";
+$sql['SQL']  .= "FROM windowsos WHERE (hardware_id = $systemid)";
 
 array_push($sql['ARG'], $systemid);
 $tab_options['ARG_SQL'] = $sql['ARG'];
