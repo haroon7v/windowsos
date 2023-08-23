@@ -8,11 +8,11 @@ $DATA_MAP{windowsos} = {
   multi => 1,
   auto => 1,
   delOnReplace => 1,
-  sortBy => 'OSHARDWAREABSTRACTIONLAYER',
+  sortBy => 'UBR',
   writeDiff => 0,
   cache => 0,
   fields => {
-    OSHARDWAREABSTRACTIONLAYER => {},
+    UBR => {},
   }
 };
 1;

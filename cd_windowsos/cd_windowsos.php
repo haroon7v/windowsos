@@ -27,7 +27,7 @@ $tab_options['table_name'] = $table_name;
 
 echo open_form($form_name);
 $list_fields = array(
-                    'Full OS Version' => 'OSHARDWAREABSTRACTIONLAYER');
+                    'UBR' => 'UBR');
 // columns to include at any time and default columns
 $list_col_cant_del = $list_fields;
 $default_fields = $list_fields;

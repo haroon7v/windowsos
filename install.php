@@ -11,7 +11,7 @@ function extension_install_windowsos()
     	"CREATE TABLE IF NOT EXISTS `windowsos` (
       	`ID` INT(11) NOT NULL AUTO_INCREMENT,
       	`HARDWARE_ID` INT(11) NOT NULL,
-      	`OSHARDWAREABSTRACTIONLAYER` VARCHAR(255) DEFAULT NULL,
+        `UBR` VARCHAR(255) DEFAULT NULL,
       	PRIMARY KEY  (`ID`,`HARDWARE_ID`)) ENGINE=INNODB;"
     );
 }
